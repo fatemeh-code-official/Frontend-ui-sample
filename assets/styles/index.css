@@ -1,0 +1,55 @@
+/*Header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(168, 165, 165);
+}
+.header p{
+    position: relative;
+}
+.header svg{
+    position: absolute;
+}
+/*Logo*/
+.logo {
+    text-align: center;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+/*Login info*/
+.login_form form{
+    margin-top: 10px;
+    text-align: center;
+}
+#submit{
+    margin:10px 0;
+}
+#find_acc_by_uname {
+    display: block;
+    color: #000;
+    margin: 25px;
+    text-align: center;
+}
+/*create new account*/
+.new_account {
+    text-align: center;
+}
+.new_account a{
+    margin: 30px 0;
+    color: blue;
+    display: block;
+    border: 1px solid blue;
+    padding: 13px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+/*footer*/
+.footer{
+    text-align: center;
+}
