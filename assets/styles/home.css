@@ -86,7 +86,7 @@ a, a:visited,a:active{
 .post .content{
     margin-top: 10px;
 }
-.post video{
+.post video , .post img{
     width: 100%;
     height: 250px;
     object-fit: cover;
