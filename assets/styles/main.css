@@ -18,3 +18,56 @@
 .header .right a:visited , .header .right a:active{
     color: #000;
 }
+/*account info settings*/
+.acc_info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*prof pic*/
+.acc_info .prof-pic{
+    position: relative;
+}
+.acc_info .prof-pic svg{
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.acc_info .prof-pic img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*follow information*/
+.follow-info{
+    display: flex;
+    flex-direction: column;
+}
+.follow-info .info{
+    display: flex;
+    margin: 0 10px;
+}
+.follow-info .info .information{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px 10px;
+}
+.info .information{
+    font-size: 13px;
+}
+/*prof name*/
+.follow-info .name{
+    margin-left: 20px;
+    font-size: 14px;
+}
