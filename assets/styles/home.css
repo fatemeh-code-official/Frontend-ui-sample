@@ -1,5 +1,14 @@
 /*header*/
+a, a:visited,a:active{
+    color: #000;
+}
 .header{
     display: flex;
     justify-content: space-between;
+}
+.header .right{
+    display: flex;
+}
+.header .icon-tabler-heart{
+    margin: 0 15px;
 }
