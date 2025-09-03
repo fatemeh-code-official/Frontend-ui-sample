@@ -1,0 +1,32 @@
+/*find account section*/
+.find_account{
+    margin: 20px 10px;
+}
+.find_account >*{
+    margin-bottom: 10px;
+}
+.find_account h1{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.find_account a:hover , .find_account a:visited{
+    color: blue;
+}
+/*find account form*/
+.find_account_form {
+    margin: 20px 10px;
+}
+.find_account_form input{
+    margin-bottom: 25px;
+}
+/*search_ways*/
+.search_way{
+    margin-top: 30px;
+    text-align: center;
+}
+.search_way a{
+    color: #000;
+}
+.search_way a:visited,.search_way a:hover,.search_way a:active{
+    color: #000;
+}
