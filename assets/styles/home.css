@@ -12,3 +12,41 @@ a, a:visited,a:active{
 .header .icon-tabler-heart{
     margin: 0 15px;
 }
+/*stories*/
+.stories{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.stories .user-prof{
+    position: relative;
+}
+.stories .title{
+    text-align: center;
+    font-size: 13px;
+}
+.stories .user-prof svg{
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.stories .story{
+    margin:0 10px;
+}
+.stories .story img{
+    border: 2px solid rgb(214, 71, 142);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
