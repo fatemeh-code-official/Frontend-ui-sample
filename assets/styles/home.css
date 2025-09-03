@@ -50,3 +50,64 @@ a, a:visited,a:active{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+/*posts*/
+.posts{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 400px;
+}
+/*post account*/
+.acc_info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acc_info .prof{
+    display: flex;
+    align-items: center;
+}
+.acc_info .prof img{
+    border: 1px solid palevioletred;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.acc_info .prof .title{
+    font-size: 12px;
+}
+/* video post*/
+.post .content{
+    margin-top: 10px;
+}
+.post video{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/*bottom of post-icons-*/
+.post .post_bottom{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.post .post_bottom .left svg{
+    margin-right: 10px;
+}
+/*account name-after icons*/
+.acc_name .u-name{
+    font-size: 15px;
+}
+.acc_name .caption{
+    font-size: 12px;
+}
+.acc_name .time{
+    font-size: 9px;
+    color: gray;
+}
