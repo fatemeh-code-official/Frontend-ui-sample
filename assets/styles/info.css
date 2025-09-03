@@ -1,0 +1,35 @@
+/*Header section*/
+.header {
+    margin-top: 10px;
+}
+.header>*{
+    margin-bottom: 10px;
+}
+.header h1{
+    font-size: 20px;
+}
+.header p{
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+/*entering_form styles*/
+.entering_form{
+    margin-top: 30px;
+}
+.entering_form form input{
+    margin-bottom: 50px;
+}
+.another_way{
+    color: #000;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
