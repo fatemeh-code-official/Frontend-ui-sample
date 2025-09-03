@@ -1,0 +1,20 @@
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header .left{
+    display: flex;
+    align-self: center;
+}
+.header .right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header .right a{
+    margin-left: 15px;
+    color: #000;
+}
+.header .right a:visited , .header .right a:active{
+    color: #000;
+}
