@@ -52,3 +52,19 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+/*middle section*/
+.middle_section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle_section .left{
+    display: flex;
+}
+.middle_section .left p{
+    margin-right: 8px;
+}
+.middle_section .right p{
+    color: blue;
+}
