@@ -68,3 +68,43 @@
 .middle_section .right p{
     color: blue;
 }
+/*accounts*/
+.accounts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/*single account settings*/
+.accounts .people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.accounts .people .left{
+    display: flex;
+    align-items: center;
+}
+/*profile img settings*/
+.people .left .prof img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*profile texts*/
+.people .left .titles p:first-child{
+    font-size: 14px;
+}
+.people .left .titles p:nth-child(2){
+    font-size: 12px;
+    color: rgb(134, 134, 134);;
+}
+/*account names*/
+.accounts .people:nth-child(3) .titles p:nth-child(2) {
+    color: #000 !important;
+}
