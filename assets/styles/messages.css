@@ -33,3 +33,22 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+/*profile*/
+.profile{
+    margin-top: 20px;
+}
+.profile p{
+    font-size: 12px;
+    color: gray;
+    margin: 3px 5px;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
