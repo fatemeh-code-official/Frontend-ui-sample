@@ -80,3 +80,28 @@
 .bio a:nth-child(3):visited , .bio a:nth-child(3):active {
     color: blue;
 }
+/*edit acc*/
+.edit_info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+}
+.edit_info a:first-child,.edit_info a:nth-child(2){
+    background-color: rgb(226, 226, 226);
+    padding: 7px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.edit_info a svg{
+    background-color: rgb(226, 226, 226);
+    padding: 2px;
+    border-radius: 5px;
+}
+.edit_info a:visited , .edit_infoa:active{
+    color: #000;
+}
