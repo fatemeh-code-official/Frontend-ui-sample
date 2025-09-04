@@ -105,3 +105,36 @@
 .edit_info a:visited , .edit_infoa:active{
     color: #000;
 }
+/*highlights*/
+.highlights{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.highlights .highlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.highlights .highlight p{
+    font-size: 13px;
+    margin-top: 3px;
+}
+.highlights .highlight img{
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*new highlight*/
+.highlights .new_highlight img{
+    border: none;
+    width: 60px;
+    height: 60px;
+}
