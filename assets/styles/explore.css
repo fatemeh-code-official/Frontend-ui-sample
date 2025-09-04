@@ -1,0 +1,22 @@
+/*header*/
+/*search_box*/
+.search_box{
+    position: relative;
+}
+.search_box svg{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    color: gray;
+}
+.search_box input{
+    width: 100%;
+    border: none;
+    padding: 10px 40px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
