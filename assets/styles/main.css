@@ -152,3 +152,22 @@
     width: 100%;
     height: 180px;
 }
+/*footer*/
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a,.footer a:visited ,.footer a:active{
+    color: #000;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
