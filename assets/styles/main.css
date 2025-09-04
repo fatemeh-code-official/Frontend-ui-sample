@@ -102,7 +102,7 @@
     padding: 2px;
     border-radius: 5px;
 }
-.edit_info a:visited , .edit_infoa:active{
+.edit_info a,.edit_info a:visited , .edit_info a:active{
     color: #000;
 }
 /*highlights*/
