@@ -71,3 +71,12 @@
     margin-left: 20px;
     font-size: 14px;
 }
+/*bio*/
+.bio{
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.bio a:nth-child(3):visited , .bio a:nth-child(3):active {
+    color: blue;
+}
