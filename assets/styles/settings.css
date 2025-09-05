@@ -1,0 +1,8 @@
+/*header*/
+.header .back{
+    display: flex;
+    align-items: center;
+}
+.header .title{
+    margin-left: 20px;
+}
