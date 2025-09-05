@@ -39,7 +39,7 @@
     height: 75%;
     overflow-y: scroll;
 }
-/*ssingle item settings*/
+/*single item settings*/
 .items .item{
     margin-top: 10px;
     display: flex;
@@ -68,4 +68,23 @@
 /*icon of settings part*/
 .items .item .content .left svg{
     margin-right: 20px;
+}
+/*footer*/
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a,.footer a:visited ,.footer a:active{
+    color: #000;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
