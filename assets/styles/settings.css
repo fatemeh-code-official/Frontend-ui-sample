@@ -29,3 +29,40 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+/*items settings*/
+.items{
+    margin-top: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid rgb(233, 233, 233);
+}
+/*ssingle item settings*/
+.items .item{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(233, 233, 233);
+}
+/*content of a single item*/
+.items .item .content{
+    margin:13px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items .item .item-title{
+    font-size: 15px;
+    color: gray;
+}
+.items .item .content .left{
+    display: flex;
+    align-items: center;
+}
+/*icon's title*/
+.items .item .content .left p{
+    font-size: 13px;
+}
+/*icon of settings part*/
+.items .item .content .left svg{
+    margin-right: 20px;
+}
