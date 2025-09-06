@@ -63,3 +63,65 @@
     font-size: 12px;
     color: blue;
 }
+/*today_news*/
+.today_news{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.today_news h3{
+    font-size: 15px;
+}
+.today_news .request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+/*profile pic*/
+.today_news .request img , .today_news .like img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*profile text details*/
+.today_news .request p{
+    display: flex;
+    align-items: center;
+}
+.today_news .request .uname , .today_news .like .uname{
+    font-size: 13px;
+}
+.today_news .request #request , .today_news .like #request{
+    font-size: 12px;
+}
+.today_news .request #time , .today_news .like #time{
+    font-size: 12px;
+    color: gray;
+}
+/*confirm button*/
+.today_news .request .confirm{
+    display: inline-block;
+    background-color: blue;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+/* like note*/
+.today_news .like{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.today_news .like img{
+    margin-right: 10px;
+}
