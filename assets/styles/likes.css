@@ -45,3 +45,21 @@
     font-size: 12px;
     color: gray;
 }
+/*today news*/
+.today{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+.today .titles{
+    margin-left: 20px;
+    line-height: 20px;
+}
+.today .titles p:first-child{
+    font-size: 14px;
+}
+.today .titles p:nth-child(2){
+    font-size: 12px;
+    color: blue;
+}
