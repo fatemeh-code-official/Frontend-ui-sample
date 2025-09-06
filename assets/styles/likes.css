@@ -6,3 +6,42 @@
 .header .back a{
     margin-right: 20px;
 }
+/*requests*/
+.requests{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.requests .left{
+    display: flex;
+    align-items: center;
+}
+/*profile pics*/
+.requests .left .pictures{
+    position: relative;
+    margin-right: 25px;
+}
+.requests .left .pictures img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.requests .left .pictures img:nth-child(2){
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+/*titles*/
+.requests .left .titles p:first-child{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.requests .left .titles p:nth-child(2){
+    font-size: 12px;
+    color: gray;
+}
