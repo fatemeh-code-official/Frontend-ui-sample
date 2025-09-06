@@ -125,3 +125,89 @@
 .today_news .like img{
     margin-right: 10px;
 }
+/*Last 30 days*/
+.items{
+    height: 38%;
+    overflow-y: scroll;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+/*information*/
+.items .information{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.items .information svg{
+    margin-right: 14px;
+}
+.items .information p{
+    font-size: 13px;
+}
+.span{
+    color: gray;
+}
+.items .item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.items .item img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+ }
+ .items .item p{
+    font-size: 12px;
+ }
+  .items .item a{
+    margin-left: 3px;
+    display: inline-block;
+    color: black;
+    background-color: lightgray;
+    padding: 7px 10px;
+    font-size: 12px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+ .items .item .followed{
+    margin-left: 5px;
+    display: inline-block;
+    color: #fff;
+    background-color: blue;
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+ }
+ /*footer*/
+.footer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a,.footer a:visited ,.footer a:active{
+    color: #000;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
