@@ -127,3 +127,9 @@ a, a:visited,a:active{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+/*Responsive codes*/
+@media screen and (max-width:576px){
+    .container{
+        width: 100dvw;
+    }
+}

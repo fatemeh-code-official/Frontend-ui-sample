@@ -108,3 +108,9 @@
 .accounts .people:nth-child(3) .titles p:nth-child(2) {
     color: #000 !important;
 }
+/*Responsive codes*/
+@media screen and (max-width:576px){
+    .container{
+        width: 100dvw;
+    }
+}

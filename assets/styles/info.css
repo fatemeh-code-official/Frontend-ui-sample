@@ -33,3 +33,9 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+/*Responsive codes*/
+@media screen and (max-width:576px){
+    .container{
+        width: 100dvw;
+    }
+}
