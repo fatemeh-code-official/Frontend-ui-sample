@@ -194,6 +194,7 @@
  }
  /*footer*/
 .footer{
+    height: 50px;
     position: sticky;
     bottom: 0;
     background-color: #fff;
