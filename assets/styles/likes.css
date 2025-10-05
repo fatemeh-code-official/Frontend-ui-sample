@@ -194,6 +194,9 @@
  }
  /*footer*/
 .footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
