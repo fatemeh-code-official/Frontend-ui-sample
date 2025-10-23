@@ -3,18 +3,21 @@
     padding: 2rem 7rem 2rem 1rem;
     display: grid;
     grid-template-columns: min-content 3fr 1fr;
+    height: 100dvh;
 }
 
 /* Main content */
 .main_content{
     display: flex;
     flex-direction: column;
-    padding-left: 15rem;
+    padding-left: 12rem;
+    overflow: hidden;
 }
 /* Stories */
 .main_content .stories{
     display: flex;
     gap: 1rem;
+    margin: 0 auto;
 }
 /* Story */
 .main_content .stories .story{
@@ -38,6 +41,64 @@
 .main_content .stories .story p{
     margin-top: 0.5rem;
     font-size: 0.8rem;
+}
+/* Posts */
+.posts{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 5rem;
+}
+/* Post */
+.posts .post{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--clr-dark-gray);
+    padding-bottom: 1rem;
+}
+/* Top */
+.posts .post .top .account_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posts .post .top .account_info .left{
+    display: flex;
+    align-items: center;
+}
+.posts .post .top .account_info .left img{
+    width: 3rem;
+    margin-right: 0.5rem;
+    border: 2px solid var(--clr-pink);
+    padding: 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.posts .post .top .account_info .left p{
+    font-size: 0.8rem;
+}
+/* Post content */
+.posts .post .post_content{
+    margin-top: 1rem;
+}
+.posts .post .post_content video{
+    width: 100%;
+}
+/* Post information */
+.posts .post .post_info .post_icons{
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Account texts */
+.posts .post .account_text{
+    margin-top: 1rem;
+    line-height: 1.6rem;
 }
 /* Messages */
 .messages{
