@@ -13,6 +13,7 @@
 a{
     text-decoration: none;
 }
+
 /*Root*/
 :root{
     --clr-light-gray:#d6d6d6;
@@ -21,3 +22,17 @@ a{
     --clr-red:#ff0000;
     --clr-blue:#2f5fff;
 }
+
+/* Accessibility icons */
+.accessibility{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--clr-light-gray);
+}
+/* Main title */
+.accessibility .main_title{
+    font-size: 1.7rem;
+    color: var(--clr-black);
+}
+
+
