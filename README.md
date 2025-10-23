@@ -1,4 +1,4 @@
-# 📱 Frontend UI Sample – Social Media Inspired
+# 📱 Frontend UI Sample – Instagram Inspired
 
 ## 🎯 Project Goal
 This project is an **educational frontend practice** that recreates a **social media style interface inspired by popular platforms**.  
