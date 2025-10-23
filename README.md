@@ -30,9 +30,9 @@ This project is an **educational frontend practice** that recreates a **social m
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="assets/screenshots/home.png" alt="Home Page" width="250"/>
-  <img src="assets/screenshots/messages.png" alt="Messages Page" width="250"/>
-  <img src="assets/screenshots/main.png" alt="Main Page" width="250"/>
+  <img src="Version 1/assets/screenshots/home.png" alt="Home Page" width="250"/>
+  <img src="Version 1/assets/screenshots/messages.png" alt="Messages Page" width="250"/>
+  <img src="Version 1/assets/screenshots/main.png" alt="Main Page" width="250"/>
 </p>
 
 ---
