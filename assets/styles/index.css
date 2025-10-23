@@ -7,9 +7,38 @@
 
 /* Main content */
 .main_content{
-    
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
 }
-
+/* Stories */
+.main_content .stories{
+    display: flex;
+    gap: 1rem;
+}
+/* Story */
+.main_content .stories .story{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+/* Account picture */
+.main_content .stories .story img{
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid var(--clr-pink);
+    padding: 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* Account name */
+.main_content .stories .story p{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
 /* Messages */
 .messages{
 
