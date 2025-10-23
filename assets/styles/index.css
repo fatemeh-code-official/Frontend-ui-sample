@@ -7,7 +7,14 @@
 
 /* Accessibility icons */
 .accessibility{
-    
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--clr-light-gray);
+}
+/* Main title */
+.accessibility .main_title{
+    font-size: 1.7rem;
+    color: var(--clr-black);
 }
 
 /* Main content */
