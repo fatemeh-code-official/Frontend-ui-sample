@@ -193,31 +193,4 @@
         font-size: 0.8rem;
         color: var(--clr-dark-gray);
     }
-
-    /* Footer */
-    .container .footer{
-        padding-top: 0.5rem;
-        width: 100dvw;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 1rem;
-        position: fixed;
-        bottom: 0;
-    }
-    .container .footer .footer_icon a svg{
-        color: var(--clr-black);
-    }
-    .container .footer .footer_profile{
-        margin-right: 1rem;
-    }
-    .container .footer .footer_profile img{
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-}
 }
