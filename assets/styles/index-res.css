@@ -63,6 +63,7 @@
     .container{
         display: flex;
         flex-direction: column;
+        height: 100dvh;
     }
     
     /* Header Top header*/
@@ -100,7 +101,7 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
     .container .header .middle_header .accounts .account img{
         width: 4rem;
         height: 4rem;
@@ -117,5 +118,78 @@
     }
     .middle_header .accounts .account p{
         font-size: 0.8rem;
+    }
+
+    /* Main */
+    .container .main{
+        overflow-y: auto;
+        height: 100%;
+    }
+    /* Posts */
+    .container .main .t_posts{
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+    .container .main .t_posts .t_post img{
+        width: 100%;
+    }
+    /* Account info */
+    .container .main .t_posts .account_info{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        top: 1rem;
+        left: 1rem;
+    }
+    .container .main .t_posts .account_info p{
+        color: #fff;
+    }
+    .container .main .t_posts .account_info img{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    /* More info icon */
+    .container .main .t_posts .more_info{
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        color: #fff;
+    }
+    /* Post icons */
+    .container .main .t_posts .icons_info{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main .t_posts .icons_info .left{
+        display: flex;
+        gap: 1.2rem;
+    }
+    .main .t_posts .icons_info .left .icon_info{
+        display: flex;
+        align-items: center;
+    }
+    /* Caption and user name */
+    .main .t_post .caption{
+        margin-top: .5rem;
+        display: flex;
+        gap: 0.8rem;
+    }
+    /* Published time */
+    .main .t_post .publish{
+        margin-top: 0.5rem;
+        display: flex;
+        font-size: 0.8rem;
+        color: var(--clr-dark-gray);
     }
 }
