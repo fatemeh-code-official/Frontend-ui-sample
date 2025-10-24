@@ -56,6 +56,10 @@
 
 /* 850px */
 @media screen and (max-width:850px){
+    /* Main Container */
+    .main_container{
+        padding-left: 0.8rem;
+    }
     /* Accessibility */
     .accessibility {
         padding-right: 2rem;
@@ -66,6 +70,10 @@
     .accessibility .icons_container .icon a p{
         font-size: 0.8rem;
         margin-left: -0.4rem !important;
+    }
+    .profile a img {
+        width: 1.5rem;
+        margin-right: 0.5rem;
     }
 
     /* Main content */
