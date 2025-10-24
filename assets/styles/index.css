@@ -111,7 +111,7 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 /*Profiles*/
 .messages .profile{
