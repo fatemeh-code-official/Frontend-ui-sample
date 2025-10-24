@@ -318,3 +318,47 @@
         font-size: 0.8rem;
     }
 }
+/* 400px */
+@media screen and (max-width:400px){
+    /* Header */
+    .container .header .top_header .app_name h1 {
+        font-size: 1.2rem;
+    }
+    .container .header .top_header svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .container .header .middle_header{
+        margin: 1rem 0;
+    }
+    .container .header .middle_header .accounts .account img {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+    .container .header .middle_header .accounts .account:first-child svg {
+        top: 5.3rem;
+        left: 2.5rem;
+        border: 1.5px solid #fff;
+        width: 1rem;
+        height: 1rem;
+    }
+    .middle_header .accounts .account p {
+        font-size: 0.6rem;
+    }
+
+    /* Main */
+    .more_info svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    /* Footer */
+    .footer_icon a svg {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .container .footer .footer_profile img {
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+}
