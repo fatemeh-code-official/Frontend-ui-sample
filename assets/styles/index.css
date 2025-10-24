@@ -161,3 +161,6 @@
     margin: 1rem 1.5rem;
     display: none;
 }
+.container .header .top_header a{
+    color: var(--clr-black);
+}
