@@ -158,7 +158,5 @@
 
 /* Mobile design */
 .container{
-    border: 2px solid gray;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1rem 1.5rem;
 }

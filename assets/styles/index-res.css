@@ -79,4 +79,43 @@
         font-size: 1.5rem;
         margin-right: 0.4rem;
     }
+    /* Middle header */
+    .container .header .middle_header{
+        margin-top: 1.5rem;
+    }
+    .container .header .middle_header .accounts{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .header .middle_header .accounts .account{
+        text-align: center;
+    }
+    .container .header .middle_header .accounts .account:first-child svg{
+        position: absolute;
+        top: 7rem;
+        left: 4.5rem;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+    .container .header .middle_header .accounts .account img{
+        width: 4rem;
+        height: 4rem;
+        padding: 2px;
+        margin-bottom: 0.3rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .middle_header .accounts .account:not(:first-child) img{
+        border: 2px solid var(--clr-pink);
+    }
+    .middle_header .accounts .account p{
+        font-size: 0.8rem;
+    }
 }
