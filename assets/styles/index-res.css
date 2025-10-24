@@ -1,0 +1,13 @@
+/* 1200 px */
+@media screen and (max-width:1200px){
+    /* Main container */
+    .main_container{
+        padding: 2rem 4rem 2rem 1rem;
+    }
+
+    /* Main content */
+    .main_content{
+        padding-left: 5rem;
+        margin-right: 4rem;
+    }
+}
