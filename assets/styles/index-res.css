@@ -54,9 +54,29 @@
     }
 }
 
-/* 576px */
-@media screen and (max-width:576px){
+/* 768px */
+@media screen and (max-width:768px){
+    /* Desktop design */
     .main_container{
         display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Header Top header*/
+    .container .header .top_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container .header .top_header .app_name{
+        display: flex;
+        align-items: center;
+    }
+    .container .header .top_header .app_name h1{
+        font-size: 1.5rem;
+        margin-right: 0.4rem;
     }
 }
