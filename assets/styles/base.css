@@ -30,6 +30,7 @@ a{
     flex-direction: column;
     border-right: 2px solid var(--clr-light-gray);
     padding-right: 5rem;
+    justify-content: space-between;
 }
 /* Main title */
 .accessibility .main_title{
@@ -76,10 +77,6 @@ a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
-/* Bottom contents */
-.accessibility .bottom_contents{
-    margin-top: 7rem;
 }
 
 
