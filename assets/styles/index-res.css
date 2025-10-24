@@ -10,6 +10,9 @@
         padding-left: 5rem;
         margin-right: 4rem;
     }
+    .container{
+        display: none;
+    }
 }
 /* 992px */
 @media screen and (max-width:992px){
@@ -45,5 +48,15 @@
     }
     .messages .profile .left .texts{
         margin-right: 0.5rem;
+    }
+    .container{
+        display: none;
+    }
+}
+
+/* 576px */
+@media screen and (max-width:576px){
+    .main_container{
+        display: none;
     }
 }
