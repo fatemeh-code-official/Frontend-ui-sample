@@ -87,6 +87,7 @@
     .container .header .middle_header .accounts{
         display: flex;
         justify-content: space-between;
+        overflow-x: auto;
     }
     .container .header .middle_header .accounts .account{
         text-align: center;
@@ -192,5 +193,26 @@
         display: flex;
         font-size: 0.8rem;
         color: var(--clr-dark-gray);
+    }
+}
+
+/* 576px */
+@media screen and (max-width:576px){
+    /* Accounts */
+    .container .header .middle_header .accounts{
+        padding-bottom: 0.5rem;
+    }
+    .container .header .middle_header .accounts .account img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .container .header .middle_header .accounts .account:first-child svg {
+        top: 6.5rem;
+        left: 4rem;
+    }
+    
+    /* Footer */
+    .container .footer .footer_profile {
+        margin-right: 3rem;
     }
 }
