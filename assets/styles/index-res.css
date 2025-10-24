@@ -54,9 +54,54 @@
     }
 }
 
+/* 850px */
+@media screen and (max-width:850px){
+    /* Accessibility */
+    .accessibility {
+        padding-right: 2rem;
+    }
+    .accessibility .icons_container .icon a svg{
+        width: 1rem !important;
+    }
+    .accessibility .icons_container .icon a p{
+        font-size: 0.8rem;
+        margin-left: -0.4rem !important;
+    }
+
+    /* Main content */
+    .main_content{
+        padding: 0 1rem;
+    }
+
+    /* Posts */
+    .main_content .posts{
+        padding: 0 1rem;
+    }
+    .posts .post .top .account_info .left img {
+        width: 2.3rem;
+    }
+
+    /* Account username and caption */
+    .posts .post .account_text {
+        margin-top: 0.5rem;
+    }
+    .account_text p{
+        font-size: 0.8rem !important;
+    }
+
+    /* Messages */
+    .messages .profile img {
+        height: 2.9rem;
+        width: 2.9rem;
+    }
+    .messages .profile p {
+        font-size: 0.7rem;
+    }
+}
+
 /* 768px */
 @media screen and (max-width:768px){
-    /* Desktop design */
+    /* Mobile and tablet design */
     .main_container{
         display: none;
     }
