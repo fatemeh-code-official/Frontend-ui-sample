@@ -24,7 +24,7 @@ This project is an **educational frontend practice** that recreates a **social m
 ---
 
 ## 🚀 Live Demo
-👉 [Click here to show live Demo](https://fatemeh-code-official.github.io/Frontend-ui-sample/)
+👉 [Click here to show live Demo](https://fatemeh-code-official.github.io/Insta-UI-sample/)
 
 ---
 
