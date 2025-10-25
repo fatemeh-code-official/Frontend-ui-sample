@@ -59,6 +59,11 @@
 
 /* 480px */
 @media screen and (max-width:480px){
+    /* Container */
+    .container{
+        padding: 0.5rem;
+    }
+
     /* Header and searchbox */
     .container .header form input[type='text'] {
         padding: 0.5rem 2.5rem;
@@ -89,7 +94,8 @@
 @media screen and (max-width:400px){
     /* Header and searchbox */
     .container .header form svg {
-        top: 1.3rem;
+        top: 0.9rem;
+        left: 1.2rem;
         width: 20px;
         height: 20px;
     }
@@ -101,7 +107,7 @@
     .container .main .post_contents {
         gap: 0.1rem;
         padding-bottom: 1rem;
-        grid-template-columns: repeat(3,6.9rem);
+        grid-template-columns: repeat(3,7.8rem);
         grid-template-rows: repeat(4,9rem);
     }
 }
