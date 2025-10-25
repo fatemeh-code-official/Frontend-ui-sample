@@ -36,6 +36,11 @@
     font-size: 0.8rem;
 }
 
+.container{
+    display: none;
+    padding: 1rem 2rem;
+}
+
 /* Responsive codes */
 /* Mobile and tablet design */
 
@@ -46,5 +51,65 @@
         display: none;
     }
 
-    
+    /* Mobile */
+    .container{
+        display: block;
+    }
+
+    /* Header */
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    /* Add icon */
+    .header .add{
+        margin-right: 8rem;
+    }
+    .header a svg{
+        color: var(--clr-black);
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Reels title */
+    .header .title{
+        margin-right: 3rem;
+    }
+
+    /* Friends */
+    .header .friends{
+        display: flex;
+        align-items: center;
+    }
+    .header .friends .ftitle{
+        font-size: 1.2rem;
+    }
+    /* Account profile */
+    .header .friends .accounts{
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    .header .friends .accounts img{
+        width: 3.5rem;
+        height: 3.5rem;
+        position: absolute;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .header .friends .accounts img:first-child{
+        z-index: 3;
+    }
+    .header .friends .accounts img:nth-child(2){
+        left: 3rem;
+        z-index: 2;
+    }
+    .header .friends .accounts img:nth-child(3){
+        left: 5rem;
+        z-index: 1;
+    }
 }
