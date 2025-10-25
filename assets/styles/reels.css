@@ -35,3 +35,16 @@
 .reels .content .reel_icons .icon p{
     font-size: 0.8rem;
 }
+
+/* Responsive codes */
+/* Mobile and tablet design */
+
+/* 768px */
+@media screen and (max-width:768px){
+    /* Desktop elements */
+    .desktop_container{
+        display: none;
+    }
+
+    
+}
