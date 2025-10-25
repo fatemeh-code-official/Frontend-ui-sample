@@ -7,6 +7,9 @@
         padding-right: 1rem;
     }
 }
+
+/* Mobile and tablet design */
+
 /* 768px */
 @media screen and (max-width:768px){
     /*Desktop container*/
@@ -22,5 +25,26 @@
     .container .main .post_contents #video2{
         grid-row: 3/5;
         grid-column: 3/4;
+    }
+}
+
+/* 576px */
+@media screen and (max-width:576px){
+    /* Searchbox */
+    .container .header form input[type='text']{
+        padding: 1rem 3rem;
+    }
+    .container .header form svg{
+        top: 1.5rem;
+    }
+
+    /* Posts  */
+    .container .main .post_contents {
+        grid-template-columns: repeat(3,10.3rem);
+    }
+
+    /* Footer */
+    .footer_profile img {
+        margin-right: 1rem;
     }
 }
