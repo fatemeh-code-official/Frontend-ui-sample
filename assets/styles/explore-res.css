@@ -18,4 +18,9 @@
     .container{
         display: block;
     }
+    /* Posts  */
+    .container .main .post_contents #video2{
+        grid-row: 3/5;
+        grid-column: 3/4;
+    }
 }
