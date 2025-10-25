@@ -8,6 +8,14 @@
     }
 }
 
+/* 850px */
+@media screen and (max-width:850px){
+    /* Posts */
+    .main_content .section{
+        grid-template-columns: repeat(3,12rem);
+    }
+}
+
 /* Mobile and tablet design */
 
 /* 768px */
