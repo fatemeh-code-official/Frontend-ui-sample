@@ -1,0 +1,7 @@
+/*Desktop container*/
+.desktop_container{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: min-content 3fr;
+    height: 100dvh;
+}
