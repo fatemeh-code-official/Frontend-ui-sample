@@ -112,4 +112,27 @@
         left: 5rem;
         z-index: 1;
     }
+
+    /* Reel content */
+    .container .main{
+        margin-top: 1rem;
+        display: flex;
+    }
+    .container .main .content{
+        position: relative;
+    }
+    .container .main .content .reel_icons{
+        color: #fff;
+        position: absolute;
+        bottom: 12rem;
+        right: 2rem;
+    }
+    .container .main .content .reel_icons .icon{
+        margin-top: 1.5rem;
+    }
+    .container .main .content .reel_icons .icon svg{
+        stroke-width:2.5;
+        width: 40px;
+        height: 40px;
+     }
 }
