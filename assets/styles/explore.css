@@ -73,6 +73,8 @@
     height: 30px;
     color: var(--clr-dark-gray);
 }
+
+/* Explore Posts */
 .container .main .post_contents{
     overflow: auto;
     margin-top: 1rem;
