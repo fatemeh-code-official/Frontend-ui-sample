@@ -35,3 +35,8 @@
     grid-row: 3/5;
     grid-column: 3/4;
 }
+
+/* Mobile and tablet elements */
+.container{
+    display: none;
+}

@@ -1,0 +1,21 @@
+/* 992px */
+@media screen and (max-width:992px){
+    /* Main content (Desktops) */
+    .main_content .section{
+        overflow-x: auto;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+/* 768px */
+@media screen and (max-width:768px){
+    /*Desktop container*/
+    .desktop_container{
+        display: none;
+    }
+
+    /* Mobile and tablet design */
+    .container{
+        display: block;
+    }
+}
