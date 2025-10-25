@@ -39,4 +39,37 @@
 /* Mobile and tablet elements */
 .container{
     display: none;
+    padding: 1rem 2rem;
+}
+
+/* Header searchbox */
+.container .header form{
+    display: flex;
+    align-items: center;
+}
+/* Searchbox */
+.container .header form input[type='text']{
+    width: 100%;
+    padding: 1.3rem 3rem;
+    background-color: var(--clr-light-gray);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container .header form input[type='text']:focus{
+    outline: none;
+}
+.container .header form input[type='text']::placeholder{
+    font-size: 1.2rem;
+}
+.container .header form svg{
+    position: absolute;
+    top: 1.8rem;
+    left: 2.6rem;
+    width: 30px;
+    height: 30px;
+    color: var(--clr-dark-gray);
 }
