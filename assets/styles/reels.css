@@ -32,3 +32,6 @@
     flex-direction: column;
     gap: 1.3rem;
 }
+.reels .content .reel_icons .icon p{
+    font-size: 0.8rem;
+}
