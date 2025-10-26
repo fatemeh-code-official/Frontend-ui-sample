@@ -182,3 +182,48 @@
         margin-right: 2.5rem;
     }
 }
+/* 480px */
+@media screen and (max-width:480px){
+    /* Container */
+    .container{
+        padding: 1rem 0;
+    }
+
+    /* Header */
+    .header{
+        padding: 0 2rem;
+    }
+    .header .add a svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .header .title {
+        font-size: 0.7rem;
+        margin-left: -4rem;
+    }
+    .header .friends .ftitle {
+        font-size: 0.9rem;
+    }
+
+    /* Reel */
+    /* Reel's icons */
+    .container .main .content .reel_icons .icon {
+        margin-top: 0.7rem;
+    }
+    .container .main .content .reel_icons .icon svg {
+        stroke-width: 1.2;
+        width: 30px;
+        height: 30px;
+    }
+    .container .main .content .reel_icons .icon p{
+        font-size: 0.9rem;
+    }
+    .container .main .content .reel_icons {
+        bottom: 9rem;
+    }
+
+    /* Footer */
+    .container .footer .footer_profile img {
+        margin-right: 0;
+    }
+}
