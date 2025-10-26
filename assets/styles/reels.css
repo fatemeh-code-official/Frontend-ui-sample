@@ -227,3 +227,42 @@
         margin-right: 0;
     }
 }
+
+/* 400px */
+@media screen and (max-width: 480px) {
+    /* Header */
+    .header {
+        padding: 0 0.5rem;
+    }
+    .header .add a svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .header .title {
+        font-size: 0.6rem;
+    }
+    .header .friends .ftitle {
+        font-size: 0.8rem;
+    }
+    .header .friends .accounts {
+        margin-left: 0.3rem;
+    }
+    .header .friends .accounts img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .header .friends .accounts img:nth-child(2) {
+        left: 1.5rem;
+    }
+    .header .friends .accounts img:nth-child(3) {
+        left: 3rem;
+    }
+
+    /* Reel */
+    .container .main {
+        margin-top: 0.2rem;
+    }
+    .container .main .content .reel_icons {
+        right: 1rem;
+    }
+}
